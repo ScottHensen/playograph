@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Playograph</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Styles:      Others -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Audiowide|Boogaloo|Bubblegum+Sans|Peralta">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+        <!-- Styles:      Mine -->
+        <link rel="stylesheet" href="css/playograph.css">
+
+        <!-- Javascript:  Others -->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+        <!-- Javascript:  Mine -->
+        <script src="js/playograph.js"></script>
+    </head>
+
+    <body>
+      <div id="board">
+        <table class="board">
+          <table class="boardHdr">
+            <tr class="hdr1"><td>THE AUTOMATIC BASE BALL</td></tr>
+            <tr class="hdr3"><td>PLAY-O-GRAPH</td></tr>
+          </table>
+          <table class="boardDtl">
+            <tr>
+              <td>
+                <table>
+                  <tr><td>Ad</td></tr>
+                  <tr><td>score</td></tr>
+                  <tr>
+                    <td id="lineup" class="visitor">
+                      <ul>
+                        <li id="teamName" class="visitor">Cleveland</li>
+                        <li>Santana</li>
+                        <li>Kipnis</li>
+                        <li>Lindor</li>
+                        <li>Napoli</li>
+                        <li>Ramirez</li>
+                        <li>Chisenhall</li>
+                        <li>Davis</li>
+                        <li>Crisp</li>
+                        <li>Perez</li>
+                      </ul>
+                      <ul id="pitcher" class="home">
+                        <li class="pitcherHdr">Opp. Pitcher</li>
+                        <li>Hendricks</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <canvas id="diamondCanvas"></canvas>
+                    </td>
+                  </tr>
+                  <tr><td>balls and strikes</td></tr>
+                  <tr><td>outs and half</td></tr>
+                  <tr><td>runs and inning</td></tr>
+                </table>
+              </td>
+              <td>
+                <table>
+                  <tr><td>Ad</td></tr>
+                  <tr><td>score</td></tr>
+                  <tr>
+                    <td id="linup" class="home">
+                      <ul>
+                        <li id="teamname" class="home">Chicago</li>
+                        <li>Fowler</li>
+                        <li>Schwarber</li>
+                        <li>Bryant</li>
+                        <li>Rizzo</li>
+                        <li>Zobrist</li>
+                        <li>Russell</li>
+                        <li>Contreras</li>
+                        <li>Heyward</li>
+                        <li>Baez</li>
+                      </ul>
+                      <ul id="pitcher" class="visitor">
+                        <li class="pitcherHdr">Opp. Pitcher</li>
+                        <li>Kluber</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </table>
+      </div>
+      <div id="footer">
+        <table class="footer">
+          <tr><td>Nothing in the footer right now</td></tr>
+        </table>
+      </div>
+    </body>
+
+</html>

@@ -1,0 +1,39 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #00483A;					// scoreboard-green
+	color: #FFFFFF;                     // scoreboard-white
+}
+
+div#board {
+  // font-family: 'Boogaloo', cursive;
+	// font-family: 'Bubblegum Sans', cursive;
+	// font-family: 'Audiowide', cursive;
+
+	.boardHdr {
+			margin: 1em auto;
+			margin-bottom: 2em;
+			text-align: center;
+
+		.hdr1 {
+			font-family: 'Acme', sans-serif;
+			font-size: 2.5em;
+		}
+		.hdr3 {
+			font-family: 'Peralta', cursive;
+			font-size: 5em;
+		}
+	}
+
+	#diamondCanvas {
+		background-color: #002E25;
+	}
+
+}
+
+div#footer {
+	background-color: #002E25;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
