@@ -1,2 +1,0 @@
-# playograph
-Baseball Playograph Scoreboard
