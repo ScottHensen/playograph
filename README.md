@@ -1,2 +1,2 @@
 # playograph
-BaseBall Playograph scoreboard
+BaseBall Play-o-graph scoreboard
